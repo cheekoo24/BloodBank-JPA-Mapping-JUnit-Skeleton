@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: bloodbank.entity.TestCRUDDonationRecordOriginal
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.697 s <<< FAILURE! - in bloodbank.entity.TestCRUDDonationRecordOriginal
+bloodbank.entity.TestCRUDDonationRecordOriginal.testCreate  Time elapsed: 0.009 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at bloodbank@1/bloodbank.entity.TestCRUDDonationRecordOriginal.testCreate(TestCRUDDonationRecordOriginal.java:92)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at bloodbank@1/bloodbank.entity.TestCRUDDonationRecordOriginal.testCreate(TestCRUDDonationRecordOriginal.java:92)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'person_id' cannot be null
+	at bloodbank@1/bloodbank.entity.TestCRUDDonationRecordOriginal.testCreate(TestCRUDDonationRecordOriginal.java:92)
+

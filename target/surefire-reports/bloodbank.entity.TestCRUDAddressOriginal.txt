@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: bloodbank.entity.TestCRUDAddressOriginal
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.413 s - in bloodbank.entity.TestCRUDAddressOriginal
